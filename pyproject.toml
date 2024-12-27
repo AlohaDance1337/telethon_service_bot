@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "telethon-service-bot"
+version = "0.1.0"
+description = ""
+authors = ["AlohaDance1337 <a94440003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telethon = "^1.38.1"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+asyncpg = "^0.30.0"
+loguru = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
